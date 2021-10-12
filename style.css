@@ -1,3 +1,102 @@
 body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.header {
     background: #1f2937
+    }
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+ }
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB; 
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB; 
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    padding: 8px 24px; }
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.header {
+   padding-left: 150px;
+   padding-right: 100px;
+   padding-bottom: 20px;
+}
+.links-header {
+    display: flex;
+    gap: 18px;
+}
+
+.header-primary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.hdr-first {
+    margin-bottom: 100px;
+}
+
+.hdr-second {
+    display: flex;
+  
+
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+.img {
+    display: flex;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: bold;
+    text-align: center;
+   
 }
