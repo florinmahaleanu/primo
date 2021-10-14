@@ -96,19 +96,28 @@ h3 {
 .infopics {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     text-align: center;
 }
+   .text {
+       display: flex;
+       justify-content: center;
+   }
    
 .images {
     display: flex;
     justify-content: center;
     gap: 20px;
     word-wrap: wrap;
+    padding-left: 250px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 div.quote1 {
-    font-size: 36px;
+    font-size: 26px;
     color: #1F2937;
     font-weight: italic;
 }
@@ -118,8 +127,51 @@ font-weight: bold;
 text-align: right;
 }
 
-.quote {
-    background: #E5E7EB;
+.quote1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote {
+    margin-top: 100px;
+    background: #E5E7EB;
+    padding-left: 250px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+.call {
+    margin-top: 100px;
+    background: #3882F6;
+    padding-left: 250px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    color: #eeee;
+    font-size: 24px;
+}
+
+.not {
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    flex: 1;
+}
+
+.call-text {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.call-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.call {
+    display: flex;
 }
