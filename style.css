@@ -145,33 +145,31 @@ text-align: right;
     padding-bottom: 20px;
 }
 .call {
+    margin: 100px 150px;
     margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
     background: #3882F6;
-    padding-left: 250px;
-    padding-right: 100px;
-    padding-bottom: 20px;
+    padding: 25px 100px 25px 250px;
     color: #eeee;
     font-size: 24px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .not {
     border-style: solid;
     border-color: white;
-    display: flex;
-    flex: 1;
 }
 
-.call-text {
-    display: flex;
-    justify-content: flex-start;
-}
 
-.call-text {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.call {
-    display: flex;
-}
