@@ -1,6 +1,5 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
 }
 
 .header {
@@ -44,6 +43,9 @@ button {
 img {
     width: 150px;
     height: 150px;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
 }
 
 .header {
@@ -91,12 +93,33 @@ h3 {
     text-align: center;
 }
 
+.infopics {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+   
 .images {
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-    font-weight: bold;
-    text-align: center;
-   
+    gap: 20px;
+    word-wrap: wrap;
+}
+
+div.quote1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: italic;
+}
+
+div.author {
+font-weight: bold;
+text-align: right;
+}
+
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
